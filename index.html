@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js 1st</title>
+    <!-- icon link -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--css links -->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body>
+
+ <!-- text change -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to change the text</h1>
+      <button type="button" class=" btn btn-dark my-2" onclick="textChange()">Text Change</button>
+      <h2 id="h2">Hello World!</h2>
+    </div>
+  
+ <!-- show Date -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to show the date</h1>
+      <button type="button" class="btn btn-dark my-2" onclick="showDate()">Show Date</button>
+
+      <h2 id="dh2">Date</h2>
+    </div>
+  
+   <script type = "text/javascript">
+         var dt = Date();
+         document.write("Date and Time : " + dt ); 
+      </script>
+
+
+      <!-- Change cloth-->
+     <div class="container mt-8">
+        <h1 class="text-danger">Click the button to change the cloth color</h1>
+        <button type="button" class="btn btn-success" onclick="bc()">Black</button>
+        <button type="button" class="btn btn-dark" onclick="wc()">White</button>
+        <img id="ts" src="img/1.png" alt="1.png">
+    </div>
+
+
+
+
+<!-- variable ex -->
+      <div class="container">
+        <h1 class="text-danger">click the button to repeat the message</h1>
+        <button type="button" class="btn btn-dark" onclick="dataRepeat()">Repeat message</button>
+        <h2 id="dr"></h2>
+      </div>
+
+<!-- on off -->
+     <div class="container mt-5">
+        <h1 class="text-danger">Click the button to turn off/on the bulb</h1>
+        <button type="button" class="btn btn-success" onclick="bulbOn()">On</button>
+        <button type="button" class="btn btn-dark" onclick="bulbOff()">Off</button>
+        <img id="bulb" src="img/off.gif" alt="off.gif">
+    </div>
+
+    <!-- font size -->
+      <div class="container">
+        <h1 class="text-danger">click the button to change the fontsize</h1>
+        <button type="button" class="btn btn-success" onclick="fontSize()">on</button>
+        <h2 id="fs">lorem ipsum dolor sit</h2>
+      </div>
+
+<!-- show hide -->
+    <div class="container">
+        <h1 class="text-danger">click the button to show/hide text</h1>
+        <button type="button" class="btn btn-success" onclick="textShow()">Show</button>
+        <button type="button" class="btn btn-dark" onclick="textHide()">Hide</button>
+
+        <h2 id="tsh">Lorem ipsum dolor sit amet</h2>
+
+
+
+<!-- variable ex -->
+      <div class="container">
+        <h1 class="text-danger">click the button to repeat the message</h1>
+        <button type="button" class="btn btn-dark" onclick="dataRepeat()">Repeat message</button>
+        <h2 id="dr"></h2>
+      </div>
+
+
+
+      <!-- ex 1st -->
+
+
+
+<div class="container">
+        <h1 class="text-danger">click the button to see result</h1>
+        <button type="button" class="btn btn-dark" onclick="plus()">10 + 13</button>
+        <h2 id="dr"></h2>
+        <p id="pp"></p>
+      </div>
+
+
+<div class="container">
+        <h1 class="text-danger">click the button to see result</h1>
+        <button type="button" class="btn btn-dark" onclick="min()">27 - 10</button>
+        <h2 id="de"></h2>
+        <p id="pe"></p>
+      </div>
+
+
+<div class="container">
+  <button onclick="outPut()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="op"></h2>
+</div>
+
+
+<div class="container">
+  <button onclick="outPutB()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="sc"></h2>
+</div>
+
+
+
+<div class="container">
+  <button onclick="outPutC()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="sclet"></h2>
+</div>
+
+
+
+
+
+<div class="container">
+  <button onclick="outPutd()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="sclt"></h2>
+</div>
+
+
+<div class="container">
+  <button onclick="outPuted()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="scltef"></h2>
+</div>
+
+
+
+<div class="container">
+  <button onclick="outPutede()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="scltefg"></h2>
+</div>
+
+
+<div class="container">
+  <button ondblclick="outPutedef()" type="button" class="btn btn-success">Result</button>
+  <h2 id="scltefgh"></h2>
+</div>
+
+
+<div class="container">
+  <button onmouseover="outPutedefg()" type="button" class="btn btn-dark">Result</button>
+  <h2 id="scltefghi"></h2>
+</div>
+
+
+
+<div class="container">
+  <button onmouseout="outPutedefgh()" type="button" class="btn btn-success">Result</button>
+  <h2 id="scltefghij"></h2>
+</div>
+
+
+
+<div class="container">
+  <button onmousemove="outPutedefghi()" type="button" class="btn btn-success">Result</button>
+  <h2 id="scltefghijk"></h2>
+</div>
+
+
+
+<div class="container">
+  <button type="button" class="btn btn-dark" onclick="test()">click me</button>
+  <p class="p">Hello</p>
+  <p class="p">Hello</p>
+  <p class="p">Hello</p>
+</div>
+
+
+
+
+
+
+
+    <!--js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
